@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    background-color: #f1f2f6;
+    box-shadow: 2px 2px 5px #ced6e0;
+}
