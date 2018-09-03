@@ -7,10 +7,83 @@ body, html{
     font-family: 'Roboto', sans-serif;
 }
 
-nav{
+
+
+.title_nav{
+    text-align: center;
+    height:500px;
+    padding-top: 100px;;
+    background-image: url('../img/tech-bg.jpg');
+    background-size: cover;
+    color: #747d8c;
+}
+
+
+/* Styling Menu bar */
+.menu_div{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+
+#navLinks{
+    display:flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    height: 100px;
     margin: 0;
-    background-color: #f1f2f6;
-    box-shadow: 2px 2px 5px #ced6e0;
+    background-color: #0f0f0f;
+    height: 100px;
+
+}
+
+/* Styling MENU links */
+
+#navLinks li{
+    list-style-type: none;
+    color: white;
+    padding:20px;
+}
+
+#navLinks a{
+    color:#b2bec3;
+    text-decoration: none;
+    padding: 30px 0;
+}
+#navLinks a:visited{
+    color:#b2bec3;
+}
+#navLinks a:hover{
+    color:#fff;
+}
+#navLinks a:active{
+    color:##55efc4;
+}
+
+
+
+/* ------ FOOTER ------- */
+
+footer{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+    color: #7e99c9;
+    height: 150px;
+    border-top: 1px solid #ff6348;
+    text-align: center;
+    
+}
+
+footer img{
+    width: 3%;
+    float: left;
+}
+
+footer p{
+    font-size: 0.8em;
+    margin-top: 100px;
 }
