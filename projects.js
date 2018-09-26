@@ -28,6 +28,9 @@ let projects = [
         url: "https://github.com/nss-evening-cohort-8/js-part-deux", // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.
         githubUrl: "https://github.com/nss-evening-cohort-8/js-part-deux"
       }
+
+      
+      
 ];
 
 
@@ -41,7 +44,7 @@ const printToDom = (stringToPrint, divId) => {
 const createProjectCards = () => {
     let newProject = '';
     for (let i = 0; i < projects.length; i++) {
-      newProject += `<div class="cardContainer">`;
+      newProject += `<div class="mr-2">`;
       newProject +=`<h5 class="project_header">Projects</h5>`;
 
       newProject += `<p>${projects[i].title}</p>`;
