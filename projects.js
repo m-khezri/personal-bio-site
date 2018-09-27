@@ -32,35 +32,25 @@ let projects = [
 
 
 
-
-
-    // bioLink.addEventListener("click", (e) => {
-    //   bioDIV.innerHTML;
-    //     e.preventDefault();
-    //     });
-
-    //     projectLink.addEventListener("click", (e) => {
-    //       projectDIV.innerHTML;
-    //         e.preventDefault();
-    //         });
-
-
-
 // funtion for Print to DOM
 const printToDom = (stringToPrint, divId) => {
     const selectedDiv = document.getElementById(divId);
     selectedDiv.innerHTML = stringToPrint;
 };
 
+// -------- Assign link IDs to variables
 const bioLink = document.getElementById('navToBio');
 const techLink = document.getElementById('navToTechnologies');
 const projectLink = document.getElementById('navToProjects');
 
+// -------- Assign Div IDs to variables
 const bioDIV = document.getElementById('bioPage');
 const techDIV = document.getElementById('technologiesPage');
 const projectDIV = document.getElementById('projectsPage');
 
-  bioLink.addEventListener("click", (e) => {
+
+// --------- Event listener 
+bioLink.addEventListener("click", (e) => {
     techDIV.remove();
     projectDIV.remove();
     createBio();
@@ -74,7 +64,6 @@ techLink.addEventListener("click", (e) => {
         e.preventDefault();
 
   });
-
 
 projectLink.addEventListener("click", (e) => {
   bioDIV.remove();
@@ -104,13 +93,14 @@ const Technology = () => {
 
 
   let tech = '';
-  tech += `<div class="bg-secondary">`;
-  tech += `<ul>Technologies:`;
-      tech += `<li>HTML5</li>`;
-      tech += `<li>CSS3</li>`;
-      tech += `<li>JavaScript</li>`;
-      tech += `<li>Git</li>`;
-      tech += `<li>GitHub</li>`;
+  tech += `<div class="card w-50 m-5">`;
+  tech += `<ul class="list-group card-body">`;
+      tech += `<li class="list-group-item active">Technologies</li>`;
+      tech += `<li class="list-group-item">HTML5</li>`;
+      tech += `<li class="list-group-item">CSS3</li>`;
+      tech += `<li class="list-group-item">JavaScript</li>`;
+      tech += `<li class="list-group-item">Git</li>`;
+      tech += `<li class="list-group-item">GitHub</li>`;
   tech += `</ul>`;
   tech += `</div>`;
   printToDom(tech, 'technologiesPage');
