@@ -7,18 +7,44 @@
 
 body{
   font-family: 'Roboto', sans-serif;
-  background-color: lightgray;
+  background-color: #eceff1;
   position: relative;
   overflow-y: scroll;
 }
 
+.main-container{
+  min-width:480px;
+  background-color: #b0bec5;
+  margin: 10rem auto 2rem;
+  max-width: 1680px;
+  padding: 2rem;
+}
+
 .navbarBox{
-  background-color:#2f3542;
+  background-color:#b2dfdb;
 }
 
 .nav-pills .nav-link.active, 
 .nav-pills .show > .nav-link {
-  background-color:#000;
+  background-color:#80cbc4;
+}
+
+.btn-light:hover {
+  background-color: #80cbc4;
+  border-color: none;
+}
+
+.about-me-container,
+.projects-container,
+.technologies-container,
+.art-gallery-container,
+.contact-container
+{
+background-color: #fff;
+padding: 5rem;
+margin: 2rem 10rem 2rem;
+border: 1px solid #e0f2f1 ;
+border-top: 30px solid #e0f2f1 ;
 }
 
 .paragraph-holder{
@@ -26,10 +52,63 @@ body{
   font-size: 0.9em;
 }
 
-.about-me-container{
-  background-color:#34495e;
+.technologies-container img{
+  padding:0;
+  margin: 2rem;
+  width: 4rem;
+  height: 4rem;
 }
 
-.projects-container{
-  background-color:#16a085;
+.socialMedia img{
+  padding:0;
+  margin: 1rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+
+.titles{
+  color: #cfd8dc;
+  font-weight: 50;
+  font-size: 2rem;
+
+}
+
+@media  (max-width: 1300px) {
+    .about-me-container{
+    flex-wrap: wrap;
+  }
+
+
+}
+
+
+@media  (max-width: 1299px) {
+    .about-me-container{
+    flex-direction: column;
+  }
+  
+  .main-container{
+    margin:1rem;
+    padding: 1rem;
+  }
+
+  .about-me-container,
+  .projects-container,
+  .technologies-container,
+  .art-gallery-container,
+  .contact-container
+  {
+  padding: 1rem;
+  margin: 1rem 1rem 1rem;
+  text-align: center;
+  }
+
+  .paragraph-holder{
+    margin: 1rem;
+    font-size: 1em;
+    text-align: justify;
+  }
+
+
 }

@@ -5,7 +5,7 @@
       "screenshot": "https://image.freepik.com/free-vector/lovely-hand-drawn-web-design-concept_23-2147949247.jpg",
       "description": "This is the best project",
       "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
-      "available": "true",
+      "available": true,
       "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
       "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
     },
@@ -14,7 +14,7 @@
       "screenshot": "https://image.freepik.com/free-vector/lovely-hand-drawn-web-design-concept_23-2147949247.jpg",
       "description": "This is the best project",
       "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
-      "available": "true",
+      "available": true,
       "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
       "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
     },
@@ -23,7 +23,7 @@
       "screenshot": "https://image.freepik.com/free-vector/lovely-hand-drawn-web-design-concept_23-2147949247.jpg",
       "description": "This is the best project",
       "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
-      "available": "true",
+      "available": true,
       "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
       "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
     }
