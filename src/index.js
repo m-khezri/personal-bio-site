@@ -2,7 +2,7 @@ import $ from 'jquery';
 import 'bootstrap';
 import './index.scss';
 import myPic from './images/mypic.jpg';
-import aboutBgImage from './images/aboutme-bg.jpg';
+// import aboutBgImage from './images/aboutme-bg.jpg';
 
 import getProjects from './javascripts/projectsGetter';
 
@@ -10,7 +10,7 @@ $('body').scrollspy({ target: '#navbar-links' });
 
 
 $('#myPic').attr('src', myPic);
-$('#aboutBgImage').attr('src', aboutBgImage);
+// $('#aboutBgImage').attr('src', aboutBgImage);
 
 
 // Printing projects to DOM

@@ -6,43 +6,80 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>My-Personal-website</title>
 </head>
 
 <body data-spy="scroll" data-target="#navbar-links">
 
-  <nav id="navbar-links" class="navbarBox navbar fixed-top">
-    <a class="navbar-brand text-light" href="#"><strong>Mohammad Khezri</strong> </a>
+  <!-- <nav id="navbar-links" class="navbarBox navbar fixed-top">
+    <h3 class="navbar-item font-weight-light display-6" style="color:#4db6ac;">Mohammad Khezri</h3>
 
-    <ul class="nav nav-pills">
+    <ul class="nav nav-pills" style="color:#4db6ac;">
       <li class="nav-item">
-        <a class="nav-link text-light" href="#about-me">About me</a> </li>
+        <a class="nav-link" style="color:#004d40;" href="#about-me">About me</a> </li>
       <li class="nav-item">
-        <a class="nav-link text-light" href="#projects">Projects</a>
+        <a class="nav-link" style="color:#004d40;" href="#projects">Projects</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-light" href="#technologies">Technologies</a>
+        <a class="nav-link" style="color:#004d40;" href="#technologies">Technologies</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-light" href="#gallery">Art gallery</a>
+        <a class="nav-link" style="color:#004d40;" href="#gallery">Art gallery</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-light" href="#contact">Contact</a>
+        <a class="nav-link" style="color:#004d40;" href="#contact">Contact</a>
       </li>
     </ul>
+  </nav> -->
+
+
+  <nav id="navbar-links" class="navbarBox navbar navbar-expand-md navbar-light fixed-top">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+      aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-between" id="navbarTogglerDemo01">
+      <a class="navbar-brand" style="color:#4db6ac" href="#"><strong>Mohammad Khezri</strong></a>
+
+      <form class="form-inline">
+
+        <ul class="navbar-nav nav-pills mr-auto mt-2 mt-lg-0" style="color:#4db6ac;">
+          <li class="nav-item">
+            <a class="nav-link" style="color:#004d40;" href="#about-me">About Me <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color:#004d40;" href="#projects">Projects <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color:#004d40;" href="#technologies">Technologies <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color:#004d40;" href="#gallery">Design Portfolio<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color:#004d40;" href="#contact">Contact <span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </form>
+    </div>
   </nav>
 
 
-  <div data-spy="scroll" data-target="#navbar-links" data-offset="0">
-    <img id="aboutBgImage" class="img-fluid" alt="my picture">
+  <div class="main-container shadow rounded" data-spy="scroll" data-target="#navbar-links" data-offset="0">
 
-    <div id="about-me" class="about-me-container p-5 mt-5 d-flex text-light">
+    <div id="about-me" class="about-me-container d-flex rounded">
+      <!-- <img id="aboutBgImage" class="img-responsive img-fluid" alt="my picture"> -->
+
       <div class="flex-item p-2">
-        <img id="myPic" class="rounded-circle" style="max-width:20rem" alt="my picture">
-        <button id="resume-dl" class="my-5 btn btn-outline-light btn-block">Download Resume</button>
+        <h3 class="titles text-center">About Me</h3>
+        <img id="myPic" class="myphoto rounded-circle" style="max-width:20rem" alt="my picture">
+        <button id="resume-dl" class="my-5 btn btn-light btn-block"><i class="fa fa-download" aria-hidden="true"></i>
+          | Download Resume</button>
       </div>
-      <div class="paragraph-holder flex-item">
-        <h3 class="display-4 text-danger">About Me</h3>
+
+      <div class="paragraph-holder flex-item text-secondary">
         <p>I am a graphic designer, art director, and photographer for over the past 15 years. I have gained great
           experiences in the fields of printing and layout design. After finishing high school, I soon began my first
           career in a printing shop as a junior graphic designer in 1999. I was in charge of creating different type of
@@ -64,20 +101,136 @@
       </div>
     </div>
 
-    <div id="projects" class="bg-secondar">
-      <h3 class="display-4 text-danger">Projects</h3>
-      <div class="projects-container" id="my-projects">
+    <div id="projects" class="projects-container rounded d-flex" id="my-projects">
+      <h3 class="titles text-center">Projects</h3>
+    </div>
 
+    <div class="technologies-container rounded">
+      <h3 class="titles text-center">Technologies</h3>
+      <div class="d-flex flex-wrap justify-content-between">
+        <img src="https://seeklogo.com/images/H/html5-with-wordmark-color-logo-4259B7F24F-seeklogo.com.png" class="flex-item"
+          alt="HTNL5">
+        <img src="https://seeklogo.com/images/C/css-3-logo-AF06D75231-seeklogo.com.png" class="img-fluid" alt="CSS">
+        <img src="https://seeklogo.com/images/B/bootstrap-logo-3C30FB2A16-seeklogo.com.png" class="img-fluid" alt="">
+        <img src="https://seeklogo.com/images/J/javascript-logo-8892AEFCAC-seeklogo.com.png" class="img-fluid" alt="JavaScript">
+        <img src="https://seeklogo.com/images/J/jquery-logo-64772E597F-seeklogo.com.png" class="img-fluid" alt="jquery">
+        <img src="https://seeklogo.com/images/S/sass-logo-E41E7734A8-seeklogo.com.png" class="img-fluid" alt="Sass">
+        <img src="https://seeklogo.com/images/R/react-logo-7B3CE81517-seeklogo.com.png" class="img-fluid" alt="react">
+        <img src="https://seeklogo.com/images/A/axios-logo-CDDCBC8E4A-seeklogo.com.png" class="img-fluid" alt="axios">
+        <img src="https://seeklogo.com/images/A/ajax-logo-A71F50DE08-seeklogo.com.png" class="img-fluid" alt="Ajax">
+        <img src="https://seeklogo.com/images/G/git-logo-F4A93DAA20-seeklogo.com.png" class="img-fluid" alt="git">
+        <img src="https://seeklogo.com/images/G/github-logo-5F384D0265-seeklogo.com.png" class="img-fluid" alt="github">
+        <img src="https://seeklogo.com/images/G/grunt-logo-E890D57A06-seeklogo.com.png" class="img-fluid" alt="grunt">
+        <img src="https://seeklogo.com/images/N/npm-node-package-manager-logo-DE93649ED1-seeklogo.com.png" class="img-fluid"
+          alt="npm">
+        <img src="https://seeklogo.com/images/A/adobe-photoshop-cc-logo-CBD0AAA3A7-seeklogo.com.png" class="img-fluid"
+          alt="photoshop">
+        <img src="https://seeklogo.com/images/A/adobe-illustrator-cc-logo-C1DC5A6D09-seeklogo.com.png" class="img-fluid"
+          alt="Illustrtaor">
+        <img src="https://seeklogo.com/images/I/indesign-cc-logo-D006452FBD-seeklogo.com.png" class="img-fluid" alt="indesign">
       </div>
     </div>
 
-    <div id="technologies" class="bg-danger">
+    <div class="art-gallery-container rounded d-flex flex-wrap justify-content-between">
+      <h3 class="titles text-center">My art portfolio</h3>
+    </div>
+
+    <div class="contact-container rounded">
+      <h3 class="titles text-center">Drop me a line</h3>
+
+      <div class=" d-flex flex-column-reverse">
+        <!-- Start of contact wrapper-->
+
+        <div class="socialMedia mx-auto">
+          <a href="http://www.linkedin.com/in/mohammad-khezri" target="_blank"><img src="https://seeklogo.com/images/L/linkedin-icon-logo-05B2880899-seeklogo.com.png"
+              class="img-fluid" alt="linkedin"></a>
+          <a href="https://www.instagram.com/photography_khezri/?hl=en" target="_blank"><img src="https://seeklogo.com/images/I/instagram-new-2016-logo-D9D42A0AD4-seeklogo.com.png"
+              class="img-fluid" alt="instagarm"></a>
+          <a href="https://github.com/m-khezri" target="_blank"><img src="https://seeklogo.com/images/G/github-octocat-logo-424E09E6F6-seeklogo.com.png"
+              class="img-fluid" alt="github"></a>
+          <a href="https://twitter.com/MohammadKhezri" target="_blank"><img src="https://seeklogo.com/images/T/twitter-icon-circle-blue-logo-94339974C6-seeklogo.com.png"
+              class="img-fluid" alt="twitter"></a>
+        </div>
+        <hr>
+        <div class="contactForm mx-auto">
+          <!--Section: Contact v.2-->
+          <section class="col-md-12">
+            <div class="row">
+
+              <!--Grid column-->
+              <div class="col-md-12 mb-md-0 mb-5">
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                  <!--Grid row-->
+                  <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+                      <div class="md-form mb-0">
+                        <input type="text" id="name" name="name" class="form-control">
+                        <label for="name" class="">Your name</label>
+                      </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+                      <div class="md-form mb-0">
+                        <input type="text" id="email" name="email" class="form-control">
+                        <label for="email" class="">Your email</label>
+                      </div>
+                    </div>
+                    <!--Grid column-->
+
+                  </div>
+                  <!--Grid row-->
+
+                  <!--Grid row-->
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="md-form mb-0">
+                        <input type="text" id="subject" name="subject" class="form-control">
+                        <label for="subject" class="">Subject</label>
+                      </div>
+                    </div>
+                  </div>
+                  <!--Grid row-->
+
+                  <!--Grid row-->
+                  <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                      <div class="md-form">
+                        <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                        <label for="message">Your message</label>
+                      </div>
+
+                    </div>
+                  </div>
+                  <!--Grid row-->
+
+                </form>
+
+                <div class="text-center text-md-left">
+                  <button class="btn btn-light btn-block" onclick="document.getElementById('contact-form').submit();">Send</button>
+                </div>
+                <div class="status"></div>
+              </div>
+              <!--Grid column-->
+
+
+            </div>
+
+          </section>
+          <!--Section: Contact v.2-->
+        </div>
+
+      </div> <!-- End of contact wrapper  -->
 
     </div>
-    <div id="gallery" class="bg-info">
-    </div>
-    <div id="contact" class="bg-warning">
-    </div>
+
   </div>
 
 </body>
