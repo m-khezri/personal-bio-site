@@ -1,0 +1,54 @@
+{
+  "tech1": {
+    "title": "HTML5",
+    "techURL": "https://seeklogo.com/images/H/html5-with-wordmark-color-logo-4259B7F24F-seeklogo.com.png"
+  },
+  "tech2": {
+    "title": "CSS",
+    "techURL": "https://seeklogo.com/images/C/css-3-logo-AF06D75231-seeklogo.com.png"
+  },
+  "tech3": {
+    "title": "Bootstrap",
+    "techURL": "https://seeklogo.com/images/B/bootstrap-logo-3C30FB2A16-seeklogo.com.png"
+  },
+  "tech4": {
+    "title": "JavaScript",
+    "techURL": "https://seeklogo.com/images/J/javascript-logo-8892AEFCAC-seeklogo.com.png"
+  },
+  "tech5": {
+    "title": "jQuery",
+    "techURL": "https://seeklogo.com/images/J/jquery-logo-64772E597F-seeklogo.com.png"
+  },
+  "tech6": {
+    "title": "Scss",
+    "techURL": "https://seeklogo.com/images/S/sass-logo-E41E7734A8-seeklogo.com.png"
+  },
+  "tech7": {
+    "title": "React",
+    "techURL": "https://seeklogo.com/images/R/react-logo-7B3CE81517-seeklogo.com.png"
+  },
+  "tech8": {
+    "title": "Axios",
+    "techURL": "https://seeklogo.com/images/A/axios-logo-CDDCBC8E4A-seeklogo.com.png"
+  },
+  "tech9": {
+    "title": "Ajax",
+    "techURL": "https://seeklogo.com/images/A/ajax-logo-A71F50DE08-seeklogo.com.png"
+  },
+  "tech10": {
+    "title": "Git",
+    "techURL": "https://seeklogo.com/images/G/git-logo-F4A93DAA20-seeklogo.com.png"
+  },
+  "tech11": {
+    "title": "GitHub",
+    "techURL": "https://seeklogo.com/images/G/github-logo-5F384D0265-seeklogo.com.png"
+  },
+  "tech12": {
+    "title": "Grunt",
+    "techURL": "https://seeklogo.com/images/G/grunt-logo-E890D57A06-seeklogo.com.png"
+  },
+  "tech13": {
+    "title": "npm",
+    "techURL": "https://seeklogo.com/images/N/npm-node-package-manager-logo-DE93649ED1-seeklogo.com.png"
+  }
+}
