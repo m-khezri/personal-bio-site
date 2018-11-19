@@ -1,10 +1,8 @@
-import $ from 'jquery';
-import firebase from 'firebase/app';
-import apiKeys from '../db/apiKeys.json';
 import 'bootstrap';
+import $ from 'jquery';
+import loadProjects from '../data/projectGetter';
 
-
-const loadProjects = (projects) => {
+const writeProjects = (projects) => {
   let newString = '';
   projects.forEach((project) => {
     newString += `
@@ -23,15 +21,12 @@ const loadProjects = (projects) => {
   });
 };
 
-getProjects()
-  .then((data) => {
-    console.log(data.data);
-    loadProjects(data.data);
-  })
-  .catch((error) => {
+const initProjectsView = () => {
+  loadProjects().then((data) => {
+    writeProjects(data);
+  }).catch((error) => {
     console.error(error);
   });
+};
 
-$('#my-projects').show();
-
-export default loadProjects;
+export default initProjectsView;
