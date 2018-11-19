@@ -2,7 +2,7 @@ import 'bootstrap';
 import $ from 'jquery';
 import loadProjects from '../data/projectGetter';
 
-const writeProjects = (projects) => {
+const writeTech = (projects) => {
   let newString = '';
   projects.forEach((project) => {
     newString += `
@@ -23,7 +23,7 @@ const writeProjects = (projects) => {
 
 const initProjectsView = () => {
   loadProjects().then((data) => {
-    writeProjects(data);
+    writeTech(data);
   }).catch((error) => {
     console.error(error);
   });
