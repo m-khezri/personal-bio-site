@@ -7,8 +7,7 @@
   "globals": {
     "document": true,
     "window": true,
-    "$": true,
-    "allowTemplateLiterals": true
+    "$": true
   },
   "rules": {
     "no-console": 1,
