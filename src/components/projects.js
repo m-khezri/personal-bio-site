@@ -2,11 +2,12 @@ import 'bootstrap';
 import $ from 'jquery';
 import loadProjects from '../data/projectGetter';
 
-const writeTech = (projects) => {
+const writeProject = (projects) => {
   let newString = '';
+  newString += '<p class="titles text-center flex-item">Projects</p>';
   projects.forEach((project) => {
     newString += `
-        <div class="mr-2 p-2 border shadow-sm rounded">
+        <div class="mr-2 p-2 border shadow-sm rounded flex-item">
         <h6 class="text-secondary">${project.title}</h6>
         <img class="img-responsive" style="width: 17rem" src="${project.screenshot}"></img>
         <p class="text-center">${project.description}</p>
@@ -21,12 +22,12 @@ const writeTech = (projects) => {
   });
 };
 
-const initProjectsView = () => {
+const getProjects = () => {
   loadProjects().then((data) => {
-    writeTech(data);
+    writeProject(data);
   }).catch((error) => {
     console.error(error);
   });
 };
 
-export default initProjectsView;
+export default getProjects;

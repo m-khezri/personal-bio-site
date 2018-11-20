@@ -3,8 +3,10 @@ import firebase from 'firebase';
 import apiKeys from '../db/apiKeys.json';
 import 'bootstrap';
 import './index.scss';
-import initProjectsView from './components/projects';
+import getProjects from './components/projects';
 import initTechsView from './components/tech';
+import AboutMe from './components/aboutMe';
+import contact from './components/contact';
 import myPic from './images/mypic.jpg';
 
 $('body').scrollspy({ target: '#navbar-links' });
@@ -13,8 +15,10 @@ $('#myPic').attr('src', myPic);
 
 const initApp = () => {
   firebase.initializeApp(apiKeys.firebaseKeys);
-  initProjectsView();
+  AboutMe();
+  getProjects();
   initTechsView();
+  contact();
 };
 
 initApp();
