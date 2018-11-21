@@ -17,6 +17,7 @@ const loadTech = () => new Promise((resolve, reject) => {
         });
       }
       resolve(techArray);
+      console.log(techArray);
     }).catch((err) => {
       reject(err);
     });
