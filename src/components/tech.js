@@ -1,25 +1,24 @@
-import 'bootstrap';
 import $ from 'jquery';
 import loadTech from '../data/techGetter';
 
-const writeTechs = (techs) => {
-  let newString = '';
-  techs.forEach((tech) => {
-    newString += `
-    <div class="d-flex flex-wrap justify-content-between">
-        <p>${tech.title}</p>
-        <img class="img-responsive" style="width: 17rem" src="${tech.techURL}"></img>
+const writeTech = (techArr) => {
+  let domString = '';
+  techArr.forEach((tech) => {
+    domString += `
+    <div class="col-md-2 m-2 text-center">
+        <img class="mb-3 mb-md-0" src="${tech.techUrl}" alt="${tech.title}" style="width: 64px; height: 64px">
     </div>`;
   });
-  $('#technologies').html(newString);
+  $('#technologies').html(domString);
 };
 
-const initTechsView = () => {
+const initTechView = () => {
   loadTech().then((data) => {
-    writeTechs(data);
+    console.log(data);
+    writeTech(data);
   }).catch((error) => {
     console.error(error);
   });
 };
 
-export default initTechsView;
+export default initTechView;
