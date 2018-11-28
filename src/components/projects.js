@@ -9,7 +9,7 @@ const writeProject = (projects) => {
     newString += `
         <div class="mr-2 p-2 border shadow-sm rounded flex-item">
         <img class="img-responsive" style="width: 17rem" src="${project.screenshot}"></img>
-        <p class="text-center">${project.description}</p>
+        <p class="text-center text-dark">${project.description}</p>
         <p class="text-info text-center">${project.technologiesUsed}</p>
         <!-- <p>${project.available}</p> -->
         <p class="text-center"><a href="https://${project.url}" target="_blank">View Project</a></p>

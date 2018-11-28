@@ -34,18 +34,16 @@ const contact = () => {
 
                     <!--Grid column-->
                     <div class="col-md-12">
-                      <div class="md-form mb-0">
+                      <div class="md-form mb-2">
                         <input type="text" id="name" name="name" placeholder="Your name" class="form-control">
-                        <label for="name" class="">Your name</label>
                       </div>
                     </div>
                     <!--Grid column-->
 
                     <!--Grid column-->
                     <div class="col-md-12">
-                      <div class="md-form mb-0">
+                      <div class="md-form mb-2">
                         <input type="text" id="email" name="email" placeholder="E-mail address" class="form-control">
-                        <label for="email" class="">Your email</label>
                       </div>
                     </div>
                     <!--Grid column-->
@@ -56,9 +54,8 @@ const contact = () => {
                   <!--Grid row-->
                   <div class="row">
                     <div class="col-md-12">
-                      <div class="md-form mb-0">
+                      <div class="md-form mb-2">
                         <input type="text" id="subject" name="subject" placeholder="Subject" class="form-control">
-                        <label for="subject" class="">Subject</label>
                       </div>
                     </div>
                   </div>
@@ -70,9 +67,8 @@ const contact = () => {
                     <!--Grid column-->
                     <div class="col-md-12">
 
-                      <div class="md-form">
+                      <div class="md-form mb-2">
                         <textarea type="text" id="message" name="message" placeholder="Your message" rows="10" class="form-control md-textarea"></textarea>
-                        <label for="message">Your message</label>
                       </div>
 
                     </div>
