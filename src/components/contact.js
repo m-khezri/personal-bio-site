@@ -35,7 +35,7 @@ const contact = () => {
                     <!--Grid column-->
                     <div class="col-md-12">
                       <div class="md-form mb-0">
-                        <input type="text" id="name" name="name" class="form-control">
+                        <input type="text" id="name" name="name" placeholder="Your name" class="form-control">
                         <label for="name" class="">Your name</label>
                       </div>
                     </div>
@@ -44,7 +44,7 @@ const contact = () => {
                     <!--Grid column-->
                     <div class="col-md-12">
                       <div class="md-form mb-0">
-                        <input type="text" id="email" name="email" class="form-control">
+                        <input type="text" id="email" name="email" placeholder="E-mail address" class="form-control">
                         <label for="email" class="">Your email</label>
                       </div>
                     </div>
@@ -57,7 +57,7 @@ const contact = () => {
                   <div class="row">
                     <div class="col-md-12">
                       <div class="md-form mb-0">
-                        <input type="text" id="subject" name="subject" class="form-control">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" class="form-control">
                         <label for="subject" class="">Subject</label>
                       </div>
                     </div>
@@ -71,7 +71,7 @@ const contact = () => {
                     <div class="col-md-12">
 
                       <div class="md-form">
-                        <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                        <textarea type="text" id="message" name="message" placeholder="Your message" rows="10" class="form-control md-textarea"></textarea>
                         <label for="message">Your message</label>
                       </div>
 
