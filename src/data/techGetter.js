@@ -5,7 +5,7 @@ const baseUrl = apiKeys.firebaseKeys.databaseURL;
 
 const loadTech = () => new Promise((resolve, reject) => {
   axios
-    .get(`${baseUrl}/tech.json`)
+    .get(`${baseUrl}/Tech.json`)
     .then((result) => {
       const techObject = result.data;
       const techArray = [];
