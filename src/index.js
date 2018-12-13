@@ -3,6 +3,7 @@ import firebase from 'firebase';
 import apiKeys from '../db/apiKeys.json';
 import 'bootstrap';
 import './index.scss';
+import navbar from './components/navbar';
 import getProjects from './components/projects';
 import initTechView from './components/tech';
 import AboutMe from './components/aboutMe';
@@ -12,6 +13,7 @@ import myPic from './images/mypic.jpg';
 
 const initApp = () => {
   firebase.initializeApp(apiKeys.firebaseKeys);
+  navbar();
   AboutMe();
   getProjects();
   initTechView();
