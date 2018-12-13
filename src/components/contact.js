@@ -6,7 +6,7 @@ const contact = () => {
   domString += `
 <h3 class="titles text-center">Drop me a line</h3>
 
-      <div class=" d-flex flex-column-reverse">
+      <div data-aos="fade-right" class=" d-flex flex-column-reverse">
         <!-- Start of contact wrapper-->
 
         <div class="socialMedia mx-auto">

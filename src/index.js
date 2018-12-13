@@ -9,9 +9,6 @@ import AboutMe from './components/aboutMe';
 import contact from './components/contact';
 import myPic from './images/mypic.jpg';
 
-$('body').scrollspy({ target: '#navbar-links' });
-$('#myPic').attr('src', myPic);
-
 
 const initApp = () => {
   firebase.initializeApp(apiKeys.firebaseKeys);
@@ -19,6 +16,8 @@ const initApp = () => {
   getProjects();
   initTechView();
   contact();
+  $('body').scrollspy({ target: '#navbar-links' });
+  $('#myPic').attr('src', myPic);
 };
 
 initApp();
