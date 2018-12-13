@@ -4,7 +4,7 @@ import loadProjects from '../data/projectGetter';
 
 const writeProject = (projects) => {
   let newString = '';
-  newString += '<p class="titles text-center flex-item">Projects</p>';
+  newString += '    <h3 class="text-center flex-fill titles text-center">Projects</h3>';
   projects.forEach((project) => {
     newString += `
         <div data-aos="fade-right" class="mr-2 p-2 border shadow-sm rounded flex-item">

@@ -3,10 +3,11 @@ import loadTech from '../data/techGetter';
 
 const writeTech = (techArr) => {
   let domString = '';
+  domString += '    <h3 class="text-center flex-fill titles text-center">Technologies</h3>';
   techArr.forEach((tech) => {
     domString += `
-    <div data-aos="fade-left" class="col-md-2 m-2 text-center">
-        <img class="mb-3 mb-md-0" src="${tech.techUrl}" alt="${tech.title}" style="width: 64px; height: 64px">
+    <div data-aos="fade-left" class="col-md-2 m-0 text-center">
+        <img data-aos="fade-left" class="mb-0 mb-md-0 w-50 h-50" src="${tech.techUrl}" alt="${tech.title}">
     </div>`;
   });
   $('#technologies').html(domString);
