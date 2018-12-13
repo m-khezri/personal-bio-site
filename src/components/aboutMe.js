@@ -6,7 +6,7 @@ const AboutMe = () => {
   domString += `
     <div data-aos="fade-right" class="flex-item p-2">
     <h3 class="titles text-center">About Me</h3>
-    <img id="myPic" class="myphoto rounded-circle" style="max-width:20rem" alt="my picture">
+    <img data-aos="zoom-in" id="myPic" class="myphoto rounded-circle" style="max-width:20rem" alt="my picture">
     <button id="resume-dl" class="my-5 btn btn-light btn-block"><i class="fa fa-download" aria-hidden="true"></i>
       | Download Resume</button>
   </div>

@@ -7,7 +7,7 @@ const writeProject = (projects) => {
   newString += '<p class="titles text-center flex-item">Projects</p>';
   projects.forEach((project) => {
     newString += `
-        <div class="mr-2 p-2 border shadow-sm rounded flex-item">
+        <div data-aos="fade-right" class="mr-2 p-2 border shadow-sm rounded flex-item">
         <img class="img-responsive" style="width: 17rem" src="${project.screenshot}"></img>
         <p class="text-center text-dark">${project.description}</p>
         <p class="text-info text-center">${project.technologiesUsed}</p>
