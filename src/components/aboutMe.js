@@ -4,13 +4,13 @@ import mypic from '../images/mypic.jpg';
 const AboutMe = () => {
   let domString = '';
   domString += `
-    <div class="flex-item p-2">
+    <div data-aos="fade-right" class="flex-item p-2">
     <h3 class="titles text-center">About Me</h3>
     <img id="myPic" class="myphoto rounded-circle" style="max-width:20rem" alt="my picture">
     <button id="resume-dl" class="my-5 btn btn-light btn-block"><i class="fa fa-download" aria-hidden="true"></i>
       | Download Resume</button>
   </div>
-  <div class="paragraph-holder flex-item text-secondary">
+  <div data-aos="fade-up" class="paragraph-holder flex-item text-secondary">
     <p>I am a graphic designer, art director, and photographer for over the past 15 years. I have gained great
       experiences in the fields of printing and layout design. After finishing high school, I soon began my first
       career in a printing shop as a junior graphic designer in 1999. I was in charge of creating different type of
