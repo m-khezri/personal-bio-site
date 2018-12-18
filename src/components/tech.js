@@ -3,14 +3,15 @@ import loadTech from '../data/techGetter';
 
 const writeTech = (techArr) => {
   let domString = '';
-  domString += '    <h3 class="text-center flex-fill titles text-center">Technologies</h3>';
-  domString += '    <hr>';
+  domString += '<div>';
+  domString += '<h3 class="text-center flex-fill titles text-center">Technologies</h3>';
+  domString += '</div';
+  domString += '<div col-md-2 m-0 text-center">';
   techArr.forEach((tech) => {
     domString += `
-    <div data-aos="fade-left" class="d-flex justify-content-between col-md-2 m-0 text-center">
-    <img data-aos="fade-left" class="flex-item" src="${tech.techUrl}" alt="${tech.title}">
-    </div>`;
+      <img data-aos="fade-left" class="flex-item img-fluid" src="${tech.techUrl}" alt="${tech.title}">`;
   });
+  domString += '</div';
   $('#technologies').html(domString);
 };
 
