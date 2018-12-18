@@ -7,14 +7,18 @@ const writeProject = (projects) => {
   newString += '    <h3 class="text-center flex-fill titles text-center">Projects</h3>';
   projects.forEach((project) => {
     newString += `
-        <div data-aos="fade-right" class="mr-2 p-2 border shadow-sm rounded flex-item">
-        <img class="img-responsive" style="width: 17rem" src="${project.screenshot}"></img>
-        <p class="text-center text-dark">${project.description}</p>
-        <p class="text-info text-center">${project.technologiesUsed}</p>
-        <!-- <p>${project.available}</p> -->
-        <p class="text-center"><a href="https://${project.url}" target="_blank">View Project</a></p>
-        <p class="text-center"><a href="https://${project.githubUrl}" target="_blank">Git Hub</a><p>
-        <h6 class="text-secondary">${project.title}</h6>
+        <div data-aos="fade-right" class="m-2 p-2 border shadow-sm rounded d-flex justify-content-between">
+          <div class="flex-item w-50 mx-auto text-center mt-5">
+            <img class="img-responsive" style="width: 17rem" src="${project.screenshot}"></img>
+          </div>
+          <div class= "flex-item ml-3 pl-5 w-50 border-left">
+          <h5 class="text-info">${project.title}</h5>
+            <p class="text-secondary">${project.description}</p>
+            <p class="text-info text-center">${project.technologiesUsed}</p>
+            <!-- <p>${project.available}</p> -->
+            <p class="text-center"><a href="https://${project.url}" target="_blank">View Project</a></p>
+            <p class="text-center"><a href="https://${project.githubUrl}" target="_blank">Git Hub</a><p>
+            </div>
         </div>`;
     if (project.available === true) {
       $('#my-projects').html(newString);

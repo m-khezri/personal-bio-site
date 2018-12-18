@@ -4,7 +4,7 @@ import 'bootstrap';
 const contact = () => {
   let domString = '';
   domString += `
-<h3 class="titles text-center">Drop me a line</h3>
+<h3 class="titles text-center">How to Contact me?</h3>
 
       <div data-aos="fade-right" class=" d-flex flex-column-reverse">
         <!-- Start of contact wrapper-->
@@ -20,76 +20,6 @@ const contact = () => {
               class="img-fluid" alt="twitter"></a>
         </div>
         <hr>
-        <div class="contactForm mx-auto">
-          <!--Section: Contact v.2-->
-          <section class="col-md-12">
-            <div class="row">
-
-              <!--Grid column-->
-              <div class="col-md-12 mb-md-0 mb-5">
-                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-
-                  <!--Grid row-->
-                  <div class="row">
-
-                    <!--Grid column-->
-                    <div class="col-md-12">
-                      <div class="md-form mb-2">
-                        <input type="text" id="name" name="name" placeholder="Your name" class="form-control">
-                      </div>
-                    </div>
-                    <!--Grid column-->
-
-                    <!--Grid column-->
-                    <div class="col-md-12">
-                      <div class="md-form mb-2">
-                        <input type="text" id="email" name="email" placeholder="E-mail address" class="form-control">
-                      </div>
-                    </div>
-                    <!--Grid column-->
-
-                  </div>
-                  <!--Grid row-->
-
-                  <!--Grid row-->
-                  <div class="row">
-                    <div class="col-md-12">
-                      <div class="md-form mb-2">
-                        <input type="text" id="subject" name="subject" placeholder="Subject" class="form-control">
-                      </div>
-                    </div>
-                  </div>
-                  <!--Grid row-->
-
-                  <!--Grid row-->
-                  <div class="row">
-
-                    <!--Grid column-->
-                    <div class="col-md-12">
-
-                      <div class="md-form mb-2">
-                        <textarea type="text" id="message" name="message" placeholder="Your message" rows="10" class="form-control md-textarea"></textarea>
-                      </div>
-
-                    </div>
-                  </div>
-                  <!--Grid row-->
-
-                </form>
-
-                <div class="text-center text-md-left">
-                  <button class="btn btn-light btn-block" onclick="document.getElementById('contact-form').submit();">Send</button>
-                </div>
-                <div class="status"></div>
-              </div>
-              <!--Grid column-->
-
-
-            </div>
-
-          </section>
-          <!--Section: Contact v.2-->
-        </div>
 
       </div> <!-- End of contact wrapper  -->
 `;

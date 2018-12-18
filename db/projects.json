@@ -1,29 +1,29 @@
 {
   "project1": {
-    "title": "Cool Project",
-    "screenshot": "https://image.freepik.com/free-vector/lovely-hand-drawn-web-design-concept_23-2147949247.jpg",
-    "description": "This is the best project",
-    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Github",
+    "title": "Chatty",
+    "screenshot": "https://github.com/nss-evening-cohort-8/chatty-spatulas/raw/master/screenshots/homescreen.png",
+    "description": "A user friendly chat application that incorporates the following features: Multiple Users, Users have the ability to see the timestamp on their messages, Users have the ability to choose the background color, text color, and font size., Users have the ability to edit and delete messages, Users have the ability to insert emojis.",
+    "technologiesUsed": "HTML, Bootstarp, JavaScript, ES6 Modules",
     "available": true,
-    "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
-    "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+    "url": "https://github.com/nss-evening-cohort-8/chatty-spatulas",
+    "githubUrl": "https://github.com/nss-evening-cohort-8/chatty-spatulas"
   },
   "project2": {
-    "title": "Cool Project",
-    "screenshot": "https://image.freepik.com/free-vector/lovely-hand-drawn-web-design-concept_23-2147949247.jpg",
-    "description": "This is the best project",
-    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Github",
+    "title": "Betels",
+    "screenshot": "https://user-images.githubusercontent.com/16019344/49768040-76a08b80-fca0-11e8-9a5e-f7532a5c02a6.png",
+    "description": "Nutshell is a new product offering that we were tasked with building. It's a dashboard for people to use to organize their daily weather, events, articles, and chat messages.",
+    "technologiesUsed": "Webpack, Axios, Firebase, ES6 Modules, SASS, Bootstrap",
     "available": true,
-    "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
-    "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+    "url": "https://github.com/nss-evening-cohort-8/nutshell-betels",
+    "githubUrl": "https://github.com/nss-evening-cohort-8/nutshell-betels"
   },
   "project3": {
-    "title": "Cool Project",
+    "title": "Competency",
     "screenshot": "https://image.freepik.com/free-vector/lovely-hand-drawn-web-design-concept_23-2147949247.jpg",
     "description": "This is the best project",
-    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Github",
-    "available": true,
-    "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
-    "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+    "technologiesUsed": "HTML5, CSS, Bootstarp, JavaScript, React, Scss",
+    "available": false,
+    "url": "",
+    "githubUrl": ""
   }
 }

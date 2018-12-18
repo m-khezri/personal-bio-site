@@ -14,10 +14,11 @@
 <body data-spy="scroll" data-target="#navbar-links">
   <div id="navBar"></div>
   <div class="main-container" data-spy="scroll" data-target="#navbar-links" data-offset="0">
-    <div data-aos="zoom-in-up" id="about-me" class="about-me-container d-flex rounded shadow"></div>
-    <div data-aos="zoom-in-up" class="projects-container rounded d-flex flex-wrap justify-content-center shadow" id="my-projects"></div>
-    <div data-aos="zoom-in-up" class="technologies-container rounded d-flex flex-wrap justify-content-center shadow" id="technologies"></div>
-    <div data-aos="zoom-in-up" id="contact" class="contact-container rounded shadow"></div>
+    <div data-aos="zoom-in" id="about-me" class="about-me-container d-flex rounded shadow"></div>
+    <div data-aos="zoom-in" class="projects-container rounded d-flex flex-column flex-wrap justify-content-center shadow"
+      id="my-projects"></div>
+    <div data-aos="zoom-in" class="technologies-container rounded shadow d-flex justify-content-center" id="technologies"></div>
+    <div data-aos="zoom-in" id="contact" class="contact-container rounded shadow"></div>
   </div>
   <footer>
     <p class="text-secondary text-center text-light" style="font-size: 0.8em;">Mohammad Khezri | 2018</p>
@@ -29,7 +30,7 @@
   <script>
     AOS.init({
       easing: 'ease-out-back',
-      duration: 3000
+      duration: 2000
     });
 
     hljs.initHighlightingOnLoad();
