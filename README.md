@@ -1,5 +1,2 @@
-# This is my personal website
+# for visit my personal website, please go to www.kezri.com
 
-# craete and apply basic HTML and CSS
-
-# making navigation bar
