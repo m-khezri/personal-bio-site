@@ -9,7 +9,7 @@ const writeTech = (techArr) => {
   domString += '<div col-md-2 m-0 text-center">';
   techArr.forEach((tech) => {
     domString += `
-      <img data-aos="fade-left" class="flex-item img-fluid" src="${tech.techUrl}" alt="${tech.title}">`;
+      <img data-aos="fade-left" class="flex-item m-1 img-fluid" src="${tech.techUrl}" alt="${tech.title}">`;
   });
   domString += '</div';
   $('#technologies').html(domString);
@@ -17,7 +17,6 @@ const writeTech = (techArr) => {
 
 const initTechView = () => {
   loadTech().then((data) => {
-    console.log(data);
     writeTech(data);
   }).catch((error) => {
     console.error(error);

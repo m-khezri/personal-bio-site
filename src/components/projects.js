@@ -4,10 +4,10 @@ import loadProjects from '../data/projectGetter';
 
 const writeProject = (projects) => {
   let newString = '';
-  newString += '    <h3 class="text-center flex-fill titles text-center">Projects</h3>';
+  newString += '    <h3 class="text-center titles">Projects</h3>';
   projects.forEach((project) => {
     newString += `
-        <div data-aos="fade-right" class="m-2 p-2 border shadow-sm rounded d-flex justify-content-between">
+        <div data-aos="project-div fade-right" class="m-2 p-2 border shadow-sm rounded d-flex">
           <div class="flex-item w-50 mx-auto text-center mt-5">
             <img class="img-responsive" style="width: 17rem" src="${project.screenshot}"></img>
           </div>
