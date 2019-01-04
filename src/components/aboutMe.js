@@ -11,7 +11,7 @@ const AboutMe = () => {
       | Download Resume</button>
   </div>
   <div data-aos="fade-up" class="paragraph-holder flex-item text-secondary m-5">
-  <h1 class="display-4">Mohammad Khezri</h1>
+  <h4 class="text-info">Mohammad Khezri</h4>
     <p>I am a graphic designer, art director, and photographer for over the past 15 years. I have gained great
       experiences in the fields of printing and layout design. After immigrating to the US in 2017 I decided to make a change to my career to web development because I believe web development is a combiniation of design and technology...</p>
   </div>

@@ -70,20 +70,16 @@ border-top: 30px solid #e0f2f1 ;
 
 }
 
-@media  (max-width: 1300px) {
-    .about-me-container{
-    flex-wrap: wrap;
-  }
-
-
-}
-
 
 @media  (max-width: 1299px) {
     .about-me-container{
     flex-direction: column;
   }
   
+  p{
+    text-align: justify;
+  }
+
   .main-container{
     margin: 2rem auto 2rem;
     padding: 1rem;
@@ -121,7 +117,7 @@ body {
   scroll-behavior: smooth;
 
 	width: 100wh;
-	height: 200vh;
+	height: 100vh;
 	background: linear-gradient(20deg,#6a89cc,#78BE97, #60a3bc, #F26D40);
 	background-size: 400% 400%;
 	-webkit-animation: Gradient 15s ease infinite;
